@@ -1,5 +1,6 @@
+'use strict';
 console.log("==============================");
-console.log('// Task 3');
+console.log("// Task 3");
 console.log("==============================");
 
 const findLongestWord = function (string) {

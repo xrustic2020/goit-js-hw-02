@@ -1,3 +1,8 @@
+'use strict';
+console.log("==============================");
+console.log("// Task 1");
+console.log("==============================");
+
 const logItems = function (array) {
   for (let i = 1; i <= (array.length); i += 1) {
     console.log(`${i} - ${array[i - 1]

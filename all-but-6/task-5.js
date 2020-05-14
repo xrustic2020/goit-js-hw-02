@@ -1,11 +1,10 @@
-"use strict";
+'use strict';
 console.log("==============================");
 console.log("// Task 5");
 console.log("==============================");
 
 const checkForSpam = function (message) {
   const messageLowerCase = message.toLowerCase();
-  console.log(messageLowerCase); // delete after
   const arrMessage = messageLowerCase.split(" ");
 
   const stopWord1 = "spam";

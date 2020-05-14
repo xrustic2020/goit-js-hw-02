@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 console.log("==============================");
 console.log("// Task 7");
 console.log("==============================");
