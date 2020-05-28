@@ -4,15 +4,16 @@ console.log("// Task 4");
 console.log("==============================");
 
 const formatString = function (string) {
-  let arrString;
   if (string.length <= 40) {
-    arrString = string;
-  } else if (string.length > 40) {
+    return string;
+  }
+  
+  if (string.length > 40) {
+    let arrString;
     arrString = string.split("");
     arrString.length = 40;
-    arrString = `${arrString.join('')}...`;
+    return `${arrString.join('')}...`;
   }
-  return arrString;
 };
 
 /*
