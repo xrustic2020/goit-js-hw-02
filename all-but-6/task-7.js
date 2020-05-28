@@ -10,12 +10,12 @@ const isLoginValid = login => login.length >= 4 && login.length <= 16;
 const isLoginUnique = (allLogins, login) => !(allLogins.includes(login));
 
 const addLogin = (allLogins, login) => {
-  if (isLoginValid(login) === false) {
+  if (!isLoginValid(login)) {
     console.log('Ошибка! Логин должен быть от 4 до 16 символов');
     return;
   }
   
-  if (isLoginUnique(allLogins, login) === false) {
+  if (!isLoginUnique(allLogins, login)) {
     console.log("Такой логин уже используется!");
     return;
   }
